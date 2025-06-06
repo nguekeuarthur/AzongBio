@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accueil</title>
+    <!-- Bootstrap CSS-->
+    <link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!-- IE 9-->
+    <!-- Vendors-->
+    <link rel="stylesheet" href="assets/vendors/flexslider/flexslider.min.css">
+    <link rel="stylesheet" href="assets/vendors/swipebox/css/swipebox.min.css">
+    <link rel="stylesheet" href="assets/vendors/slick/slick.min.css">
+    <link rel="stylesheet" href="assets/vendors/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="assets/vendors/animate.min.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/vendors/pageloading/css/component.min.css">
+    <link rel="stylesheet" href="assets/vendors/dialog/css/dialog.css">
+    <!-- Font-icon-->
+    <link rel="stylesheet" href="assets/fonts/font-icon/style.css">
+    <!-- Style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/elements.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/extra.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/widget.css">
+    <link id="colorpattern" rel="stylesheet" type="text/css" href="assets/css/color/colordefault.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/live-settings.css">
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <!-- Script Loading Page-->
+    <script src="assets/vendors/html5shiv.js"></script>
+    <script src="assets/vendors/respond.min.js"></script>
+    <script src="assets/vendors/pageloading/js/snap.svg-min.js"></script>
+    <script src="assets/vendors/pageloading/sidebartransition/js/modernizr.custom.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYR30Q9JF8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BYR30Q9JF8');
+  </script>
+    <style>
+        .swin-sc-product.products-01.style-04 .nav-slider {
+            height: 500px; /* Adjusted height to accommodate more items */
+            overflow-y: auto; /* Add scroll if needed */
+        }
+
+        /* Existing styles for flexbox from previous attempt */
+        .swin-sc-product.products-01.style-04 .item.product-01 {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            justify-content: space-between; /* Distribute space between left and right content */
+        }
+
+        .swin-sc-product.products-01.style-04 .item.product-01 .item-left {
+            flex-grow: 1; /* Allow left side to take up available space */
+            margin-right: 20px; /* Add some space between left and right */
+        }
+
+        .swin-sc-product.products-01.style-04 .item.product-01 .item-right {
+            flex-shrink: 0; /* Prevent right side from shrinking */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* Align price and button to the right */
+        }
+
+        .swin-sc-product.products-01.style-04 .item.product-01 .item-right .price {
+            margin-bottom: 10px; /* Space between price and button */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="pagewrap" class="pagewrap">
+        <div id="html-content" class="wrapper-content">
+            <header class="header-transparent">
+                <div class="header-top top-layout-02">
+                    <div class="container">
+                        <div class="topbar-left">
+                            <div class="topbar-content">
+                                <div class="item">
+                                    <div class="wg-contact"><i class="fa fa-map-marker"></i><span>Dschang, Ouest Cameroun</span></div>
+                                </div>
+                                <div class="item">
+                                    <div class="wg-contact"><i class="fa fa-phone"></i><span>+237 678 452 338</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topbar-right">
+                            <div class="topbar-content">
+                                <div class="item">
+                                    <ul class="socials-nb list-inline wg-social">
+                                        <li><a href="https://www.facebook.com/share/18RX9f1cST/?mibextid=wwXIfr"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.tiktok.com/@azongbio?_t=ZN-8uwzQebhyHH&_r=1"><img src= "assets/images/tik-tok.png" class="myicon"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-main" style="padding-top: 5px;">
+                    <div class="container">
+                        <div class="open-offcanvas">&#9776;</div>
+                        <!-- <div class="utility-nav">
+                            <div class="dropdown dropdown-full-mobile"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="search-bar dropdown-toggle"><i class="fa fa-shopping-bag"></i></a>
+                                <div class="dropdown-menu">
+                                    <div class="cart_lite">
+                                        <div class="cart_lite_list">
+                                            <ul>
+                                                <li class="cart_lite_item"><a href="product-single.html" class="cart_item_thumbnail"><img width="150" height="100" src="assets/images/product/product-circle-1h.jpg" alt="" class="img-responsive"></a>
+                                                    <div class="cart_item_summary"><a href="product-single.html" class="cart_item_title">Caramel Frappuccino</a><span class="product-price-amount"><span class="quantity">1 × </span><span class="product-price-currencySymbol">$</span>12.0</span></div><a href="#" class="remove_from_cart_button">×</a>
+                                                </li>
+                                                <li class="cart_lite_item"><a href="product-single.html" class="cart_item_thumbnail"><img width="150" height="100" src="assets/images/product/product-circle-1k.jpg" alt="" class="img-responsive"></a>
+                                                    <div class="cart_item_summary"><a href="product-single.html" class="cart_item_title">Chocolate Fudge Ripple</a><span class="product-price-amount"><span class="quantity">2 × </span><span class="product-price-currencySymbol">$</span>24.0</span></div><a href="#" class="remove_from_cart_button">×</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart_lite_total">
+                                            <p><strong>Subtotal: </strong><span class="product-price-amount"><span class="product-price-currencySymbo">$</span>60.0</span></p>
+                                        </div>
+                                        <div class="cart_lite_button"><a href="product-cart.html" class="swin-btn btn-sm"><span>View Cart</span></a><a href="product-checkout.html" class="swin-btn btn-sm"><span>Checkout</span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="search-bar dropdown-toggle"><i class="fa fa-search"></i></a>
+                                <div class="dropdown-menu">
+                                    <div class="search-form">
+                                        <form action="#">
+                                            <div class="input-group">
+                                                <input type="text" placeholder="Search" class="form-control">
+                                                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="header-logo"><a href="index.html" class="logo logo-static"><img src="assets/images/logo-white.png" alt="fooday" class="logo-img" width="300"></a><a href="index.html" class="logo logo-fixed"><img src="assets/images/logo.png" alt="fooday" class="logo-img" width="300"></a></div>
+                        <nav id="main-nav-offcanvas" class="main-nav-wrapper">
+                            <div class="close-offcanvas-wrapper"><span class="close-offcanvas">x</span></div>
+                            <div class="main-nav" style="padding-top: 5px">
+                                <ul id="main-nav" class="nav nav-pills" style="padding-top: 5px">
+                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="about.html">À propos</a></li>
+                                    <!-- <li><a href="reservation.html">Réservation</a></li> -->
+                                    <li><a href="blogs.html">Blog</a></li>
+                                    <li><a href="contact.html">Nous Contacter</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="page-container">
+                <div class="top-header top-bg-parallax">
+                    <div data-parallax="scroll" data-image-src="assets/images/slider/slider2-bg1.jpg" class="slides parallax-window">
+                        <div class="slide-content slide-layout-02">
+                            <div class="container">
+                                <div class="slide-content-inner"><img src="assets/images/slider/slider2-icon.png" data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="500" alt="fooday" class="slide-icon img img-responsive animated">
+                                    <h3 data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="1000" class="slide-title animated">AZONG<span class="green-bio">BIO</span></h3>
+                                    <p data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="1500" class="slide-sub-title animated"><span class="line-before"></span><span class="line-after"></span><span class="text"><span>Detox</span><span>Refresh</span><span>Immune</span><span>Depure</span></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content-wrapper">
+                    <section class="about-us-session padding-top-100 padding-bottom-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 colsm-12"><img src="assets/images/pages/home1-about.jpg" alt="" class="img img-responsive wow zoomIn"></div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="swin-sc swin-sc-title style-4 margin-bottom-20 margin-top-50">
+                                        <p class="top-title"><span>Découvrez</span></p>
+                                        <h3 class="title">Notre Histoire</h3>
+                                    </div>
+                                    <p class="des font-bold text-center">UN PARCOURS SIMPLE, PORTE PAR LA TERRE ET L’HUMAIN</p>
+                                    <p class="des margin-bottom-20 text-center">Bralie Branding naît en 2019 à Yaoundé avec une intuition : valoriser le naturel. En 2024, AzonBio s’impose comme l’aboutissement de ce chemin. Des thés bio, sincères, enracinés, pour infuser le quotidien de bien-être.</p>
+                                    <div class="swin-btn-wrap center"><a href="about.html" class="swin-btn center form-submit btn-transparent"> <span> À propos</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="product-sesction-01 padding-bottom-100 padding-top-100" style="background-image: url('assets/images/slider/Snapshot.jpg'); background-size: cover; background-position: center; background-attachment: fixed; position: relative;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255, 255, 255, 0.85);"></div>
+                        <div class="container" style="position: relative; z-index: 1;">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="swin-sc swin-sc-title">
+                                        <p class="top-title"><span>Produit AZONGBIO</span></p>
+                                        <h3 class="title">Nos mélanges</h3>
+                                    </div>
+                                    <div class="swin-sc swin-sc-product products-01 style-02 woocommerce">
+                                        <div class="row">
+                                            <div class="col-md-2"></div>
+                                            <div data-slide-toshow="5" class="cat-wrapper-02 main-slider col-md-8">
+                                                <div class="item">
+                                                    <div class="cat-icons"><i class="icons swin-icon-pasta"></i>
+                                                        <h5 class="cat-title">Petit-déjeuner</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="cat-icons"><i class="icons swin-icon-fish"></i>
+                                                        <h5 class="cat-title">Déjeuner</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="cat-icons"><i class="icons swin-icon-dinner"></i></div>
+                                                    <h5 class="cat-title">Collation</h5>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="cat-icons"><i class="icons swin-icon-meat"></i></div>
+                                                    <h5 class="cat-title">Dîner </h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="nav-slider">
+                                                <div class="tab-content">
+                                                    <div class="col-md-5 col-sm-12">
+                                                        <div class="cat-wrapper">
+                                                            <div class="item"><img src="assets/images/product/pd-cat-dessert.jpg" alt="" class="img img-responsive img-full"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12">
+                                                        <div class="products full-infor">
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Booste l'énergie </h5>
+                                                                    <div class="des">La caféine légère du thé noir combinée à la vitamine C du citron stimule la vitalité matinale.</div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Renforce l'immunité   </h5>
+                                                                    <div class="des"> L'acide ascorbique (vitamine C) et les antioxydants du thé noir aident à lutter contre les radicaux libres. </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Facilite la digestion   </h5>
+                                                                    <div class="des"> Le citron régule l'acidité gastrique et soutient le foie. </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Hydratation légère  </h5>
+                                                                    <div class="des"> Faible en sucre (40% de moins), idéal pour une hydratation sans culpabilité. </div>
+                                                                </div>
+                                                                <!-- <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol"></span></span>
+                                                                    <div class="btn-atc-wrapper"><a href="#menthe"   tab-index="0" class="btn-atc"><span>Menthe</span></a></div>
+                                                                </div> -->
+                                                            </div>
+                                                            
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-content" id="menthe">
+                                                    <div class="col-md-5 col-sm-12">
+                                                        <div class="cat-wrapper">
+                                                            <div class="item"><img src="assets/images/product/pd-cat-lunch.jpg" alt="" class="img img-responsive img-full"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12">
+                                                        <div class="products full-infor" >
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Apaise les troubles digestifs  </h5>
+                                                                    <div class="des"> La menthe réduit les ballonnements et les spasmes intestinaux.  </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Rafraîchit l'haleine   </h5>
+                                                                    <div class="des"> Les composés mentholés éliminent les bactéries buccales.  </div>
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Améliore la concentration  </h5>
+                                                                    <div class="des"> Son arôme vivifiant agit comme un stimulant cognitif naturel. </div>
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Sans calories superflues  </h5>
+                                                                    <div class="des"> Teneur modérée en sucre, parfaite pour une pause légère. </div>
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-content">
+                                                    <div class="col-md-5 col-sm-12">
+                                                        <div class="cat-wrapper">
+                                                            <div class="item"><img src="assets/images/product/pd-cat-dinner.jpg" alt="" class="img img-responsive img-full"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12">
+                                                        <div class="products full-infor">
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Anti-inflammatoire puissant  </h5>
+                                                                    <div class="des">Le gingembre combat les douleurs musculaires et articulaires.   </div>
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Coupe-faim naturel  </h5>
+                                                                    <div class="des"> Le gingembre régule la glycémie et réduit les envies de sucré. </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Détoxifie l'organisme  
+
+                                                                    </h5>
+                                                                    <div class="des"> Le citron et le gingembre soutiennent la fonction hépatique.  </div>
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Réduit la fatigue   </h5>
+                                                                    <div class="des"> La synergie gingembre-citron revitalise en profondeur.  </div>
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-content">
+                                                    <div class="col-md-5 col-sm-12">
+                                                        <div class="cat-wrapper">
+                                                            <div class="item"><img src="assets/images/product/feature-box-bg-3.jpg" alt="" class="img img-responsive img-full"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12">
+                                                        <div class="products full-infor">
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Soulage les nausées  </h5>
+                                                                    <div class="des"> Le gingembre est reconnu pour calmer les maux d'estomac (idéal après le dîner).   </div>
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Active la circulation sanguine   </h5>
+                                                                    <div class="des"> Ses propriétés réchauffantes améliorent le flux sanguin.  </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Antimicrobien  </h5>
+                                                                    <div class="des"> Combat les infections hivernales ou digestives. </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Préparation au sommeil  </h5>
+                                                                    <div class="des"> Sans effet excitant, il relaxe sans perturber le repos.  </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-content">
+                                                    <div class="col-md-5 col-sm-12">
+                                                        <div class="cat-wrapper">
+                                                            <div class="item"><img src="assets/images/product/pd-cat-lunch.png" alt="" class="img img-responsive img-full"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12">
+                                                        <div class="products full-infor">
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Old Timer's Meat Breakfast</h5>
+                                                                    <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+                                                                </div>
+                                                                <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span>
+                                                                    <div class="btn-atc-wrapper"><a data-toggle="dialog" data-target="#add-to-cart-dialog" tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
+                                                                    <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+                                                                </div>
+                                                                <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+                                                                    <div class="btn-atc-wrapper"><a data-toggle="dialog" data-target="#add-to-cart-dialog" tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Grandpa's Country Fried Breakfast </h5>
+                                                                    <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+                                                                </div>
+                                                                <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
+                                                                    <div class="btn-atc-wrapper"><a data-toggle="dialog" data-target="#add-to-cart-dialog" tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Uncle Herschel's Favorite </h5>
+                                                                    <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+                                                                </div>
+                                                                <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span>
+                                                                    <div class="btn-atc-wrapper"><a data-toggle="dialog" data-target="#add-to-cart-dialog" tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item product-01">
+                                                                <div class="item-left">
+                                                                    <h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
+                                                                    <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+                                                                </div>
+                                                                <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span>
+                                                                    <div class="btn-atc-wrapper"><a data-toggle="dialog" data-target="#add-to-cart-dialog" tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="product-sesction-03-1 padding-top-100 padding-bottom-100"><img src="assets/images/product/product-decorate.jpg"  sizes="(max-width: 600px) 480px, 800px" alt="" class="img-responsive img-decorate">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-4"></div>
+                                <div class="col-lg-6 col-md-8">
+                                    <div class="swin-sc swin-sc-title text-left light">
+                                       
+                                        <h3 class="title">Nos Produits Bralie</h3>
+                                    </div>
+                                    <div class="swin-sc swin-sc-product products-01 style-04 light swin-vetical-slider">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div data-height="200" class="products nav-slider full-infor">
+                                                    <div class="item product-01">
+                                                        <div class="item-left"><img src="assets/images/product/1.jpg" alt="" class="img img-responsive">
+                                                            <div class="content-wrapper"><a class="title">TISANE BIO THE VERT  </a>
+                                                                <div class="dot">....................................</div>
+                                                                <div class="des">Le thé vert est une plante médicinale naturelle très puissante. </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">XAF</span>2500 </span>
+                                                            <div class="btn-atc-wrapper"><a  tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item product-01">
+                                                        <div class="item-left"><img src="assets/images/product/2.jpg" alt="" class="img img-responsive">
+                                                            <div class="content-wrapper"><a class="title">TISANE BIO CAMOMILLE  </a>
+                                                                <div class="dot">....................................</div>
+                                                                <div class="des">La camomille est une plante aux bienfaits multiples.  </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">XAF</span>4500</span>
+                                                            <div class="btn-atc-wrapper"><a   tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item product-01">
+                                                        <div class="item-left"><img src="assets/images/product/3.jpg" alt="" class="img img-responsive">
+                                                            <div class="content-wrapper"><a class="title">THE BIO MELISSE  </a>
+                                                                <div class="dot">....................................</div>
+                                                                <div class="des">Feuilles de mélisse : riches en huile essentielle, arôme citronné, utilisées contre l'anxiété et les troubles digestifs. </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">XAF</span>3000</span>
+                                                            <div class="btn-atc-wrapper"><a   tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item product-01">
+                                                        <div class="item-left"><img src="assets/images/product/4.jpg" alt="" class="img img-responsive">
+                                                            <div class="content-wrapper"><a class="title">TISANE BIO THE BREAKFAST </a>
+                                                                <div class="dot">....................................</div>
+                                                                <div class="des">3 tasses de thé noir par jour réduiraient le risque d'infarctus de 11% et amélioreraient la santé cardiovasculaire, selon une étude britannique. </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">XAF</span>1200</span>
+                                                            <div class="btn-atc-wrapper"><a   tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item product-01">
+                                                        <div class="item-left"><img src="assets/images/product/5.jpg" alt="" class="img img-responsive">
+                                                            <div class="content-wrapper"><a class="title">TISANE BIO THE ROUGE  </a>
+                                                                <div class="dot">....................................</div>
+                                                                <div class="des">Le rooibos, bien que n'étant pas du thé, est ainsi nommé en raison de sa couleur brune à l'infusion. </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">XAF</span>4500</span>
+                                                            <div class="btn-atc-wrapper"><a   tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item product-01">
+                                                        <div class="item-left"><img src="assets/images/product/6.jpg" alt="" class="img img-responsive">
+                                                            <div class="content-wrapper"><a class="title">TISANE AU FENOUIL </a>
+                                                                <div class="dot">....................................</div>
+                                                                <div class="des">Action carminative : réduit la formation de gaz, favorise leur élimination et calme les douleurs associées.</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">XAF</span>2500</span>
+                                                            <div class="btn-atc-wrapper"><a   tab-index="0" class="btn-atc"><span>Order</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="service-section-02 padding-top-100 padding-bottom-100">
+                        <div class="container">
+                            <div class="swin-sc swin-sc-title">
+                                <p class="top-title"><span>Nos services</span></p>
+                                <h3 class="title">Moment approprie pour consommer nos produits</h3>
+                            </div>
+                            <div class="swin-sc swin-sc-iconbox">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 col-xs-12">
+                                        <div class="item icon-box-02 wow fadeInUpShort">
+                                            <div class="wrapper-icon"><i class="icons swin-icon-dish"></i><span class="number">1</span></div>
+                                            <h4 class="title">Pour vos dinés</h4>
+                                            <div class="description">En plein repas, rien de tel qu'un Azongbio pour se rafraîchir avec style. C'est la boisson qu'on partage avec plaisir en pleine nature.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-12">
+                                        <div data-wow-delay="0.5s" class="item icon-box-02 wow fadeInUpShort">
+                                            <div class="wrapper-icon"><i class="icons swin-icon-dinner-2"></i><span class="number">2</span></div>
+                                            <h4 class="title">Pour vos événements</h4>
+                                            <div class="description">Que ce soit un concert, une foire ou un événement culturel, un thé glacé Azongbio bien frais, c'est l'allié parfait pour rester hydraté tout en se faisant plaisir naturellement !
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-12">
+                                        <div data-wow-delay="1s" class="item icon-box-02 wow fadeInUpShort">
+                                            <div class="wrapper-icon"><i class="icons swin-icon-browser"></i><span class="number">3</span></div>
+                                            <h4 class="title">Pendant les pauses au boulot ou à l'université</h4>
+                                            <div class="description">Marre des boissons sucrées artificielles ? Opte pour une pause saine et apaisante avec un thé glacé Azongbio. Ton cerveau et ton corps te remercieront !</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-12">
+                                        <div data-wow-delay="1.5s" class="item icon-box-02 wow fadeInUpShort">
+                                            <div class="wrapper-icon"><i class="icons swin-icon-delivery"></i><span class="number">4</span></div>
+                                            <h4 class="title">En voyage ou en road trip</h4>
+                                            <div class="description">Pratique à emporter, le thé glacé Azongbio t'accompagne sur la route pour un boost de fraîcheur et de saveur, sans sucre superflu.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="gallery-section-01 padding-top-100">
+                        <div class="swin-sc swin-sc-title">
+                            <p class="top-title"><span>Notre Gallerie</span></p>
+                            
+                        </div>
+                        <div class="swin-sc swin-sc-isotope">
+                            <div class="grid">
+                                <div class="grid-sizer col-sm-1"></div>
+                                <div class="grid-item col-sm-3 grid-item-h2">
+                                    <div class="grid-wrap-item"><a href="#" class="gallery-title title">AZONGBIO</a><a href="assets/images/gallery/gallery-1.jpg" data-lightbox="image" class="view-lightbox swipebox"><i class="fa fa-search-plus"></i></a><a href="#" class="view-more"><i class="fa fa-link"></i></a>
+                                        <div class="img-wrap"><img src="assets/images/gallery/gallery-1.jpg" alt="" class="img img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-sm-4 grid-item-h1">
+                                    <div class="grid-wrap-item"><a href="#" class="gallery-title title">AZONGBIO</a><a href="assets/images/gallery/gallery-2.jpg" data-lightbox="image" class="view-lightbox swipebox"><i class="fa fa-search-plus"></i></a><a href="#" class="view-more"><i class="fa fa-link"></i></a>
+                                        <div class="img-wrap"><img src="assets/images/gallery/gallery-2.jpg" alt="" class="img img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-sm-2 grid-item-h1">
+                                    <div class="grid-wrap-item"><a href="#" class="gallery-title title">AZONGBIO</a><a href="assets/images/gallery/gallery-3.jpg" data-lightbox="image" class="view-lightbox swipebox"><i class="fa fa-search-plus"></i></a><a href="#" class="view-more"><i class="fa fa-link"></i></a>
+                                        <div class="img-wrap"><img src="assets/images/gallery/gallery-3.jpg" alt="" class="img img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-sm-3 grid-item-h2">
+                                    <div class="grid-wrap-item"><a href="#" class="gallery-title title">AZONGBIO</a><a href="assets/images/gallery/gallery-4.jpg" data-lightbox="image" class="view-lightbox swipebox"><i class="fa fa-search-plus"></i></a><a href="#" class="view-more"><i class="fa fa-link"></i></a>
+                                        <div class="img-wrap"><img src="assets/images/gallery/gallery-4.jpg" alt="" class="img img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-sm-2 grid-item-h1">
+                                    <div class="grid-wrap-item"><a href="#" class="gallery-title title">AZONGBIO</a><a href="assets/images/gallery/gallery-5.jpg" data-lightbox="image" class="view-lightbox swipebox"><i class="fa fa-search-plus"></i></a><a href="#" class="view-more"><i class="fa fa-link"></i></a>
+                                        <div class="img-wrap"><img src="assets/images/gallery/gallery-5.jpg" alt="" class="img img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-sm-4 grid-item-h1">
+                                    <div class="grid-wrap-item"><a href="#" class="gallery-title title">AZONGBIO</a><a href="assets/images/gallery/gallery-6.jpg" data-lightbox="image" class="view-lightbox swipebox"><i class="fa fa-search-plus"></i></a><a href="#" class="view-more"><i class="fa fa-link"></i></a>
+                                        <div class="img-wrap"><img src="assets/images/gallery/gallery-6.jpg" alt="" class="img img-responsive"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="blog-section padding-top-100 padding-bottom-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="swin-sc swin-sc-title">
+                                        <p class="top-title"><span>Dernières nouvelles</span></p>
+                                        <h3 class="title">Notre blog</h3>
+                                    </div>
+                                    <div class="swin-sc swin-sc-blog-grid"></div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="swin-sc swin-sc-blog-grid">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                                <div data-wow-delay="0s" class="blog-item swin-transition item wow fadeInUpShort">
+                                                    <div class="blog-info clearfix">
+                                                        <div class="blog-info-item blog-view">
+                                                            <p><i class="fa fa-eye"></i><span>512</span></p>
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="blog-info-item blog-comment">
+                                                            <p><i class="fa fa-comment"></i><span>22</span></p>
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="blog-info-item blog-author">
+                                                            <p><span>Poster par </span><a href="javascript:void(0)">Azongio</a></p>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="blog-featured-img"><img src="assets/images/blog/blog-grid-1.jpg" alt="fooday" class="img img-responsive"></div>
+                                                    <div class="blog-content">
+                                                        <div class="blog-date"><span class="day">25</span><span class="month"> Mai 2024</span></div>
+                                                        <h3 class="blog-title"><a href="javascript:void(0)" class="swin-transition">Toujours avec mon thé glacé naturel 🍃azongbio🍀</a></h3>
+                                                        <p class="blog-description">
+                                                           </p>
+                                                        <div class="blog-readmore"><a href="https://www.facebook.com/photo.php?fbid=122145854660055764&set=a.122114464208055764&type=3&mibextid=wwXIfr&rdid=neYEmkhBlCRRE8GM&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14ve7q32mP%2F%3Fmibextid%3DwwXIfr#" class="swin-transition">Lisez plus+<i class="fa fa-angle-double-right"></i></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                                <div data-wow-delay="0.5s" class="blog-item swin-transition item wow fadeInUpShort">
+                                                    <div class="blog-info clearfix">
+                                                        <div class="blog-info-item blog-view">
+                                                            <p><i class="fa fa-eye"></i><span>1,3K</span></p>
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="blog-info-item blog-comment">
+                                                            <p><i class="fa fa-comment"></i><span>6</span></p>
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="blog-info-item blog-author">
+                                                            <p><span>Poster par </span><a href="javascript:void(0)">Azongbio</a></p>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="blog-featured-img"><img src="assets/images/blog/blog-grid-1-1.jpg" alt="fooday" class="img img-responsive"></div>
+                                                    <div class="blog-content">
+                                                        <div class="blog-date"><span class="day">23</span><span class="month">Mai 2024</span></div>
+                                                        <h3 class="blog-title"><a href="https://www.facebook.com/share/p/1599ma2WWm/?mibextid=wwXIfr" class="swin-transition">Azongbio disponible dans toutes les boulangeries Saker et autres</a></h3>
+                                                        <p class="blog-description"></p>
+                                                        <div class="blog-readmore"><a href="https://www.facebook.com/share/p/1599ma2WWm/?mibextid=wwXIfr" class="swin-transition">Lisez plus+ <i class="fa fa-angle-double-right"></i></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                <div data-wow-delay="1s" class="blog-item swin-transition item wow fadeInUpShort">
+                                                    <div class="blog-info clearfix">
+                                                        <div class="blog-info-item blog-view">
+                                                            <p><i class="fa fa-eye"></i><span>19</span></p>
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="blog-info-item blog-comment">
+                                                            <p><i class="fa fa-comment"></i><span>02</span></p>
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="blog-info-item blog-author">
+                                                            <p><span>Poster par </span><a href="javascript:void(0)">Azongbio</a></p>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="blog-featured-img"><img src="assets/images/blog/blog-grid-1-2.jpg" alt="fooday" class="img img-responsive"></div>
+                                                    <div class="blog-content">
+                                                        <div class="blog-date"><span class="day">31</span><span class="month">Mars 2024</span></div>
+                                                        <h3 class="blog-title"><a href="javascript:void(0)" class="swin-transition">Le tout premier icetea fabriqué au 🇨🇲,est maintenant en vente à Douala et Dschang</a></h3>
+                                                        <p class="blog-description">sera bientôt disponible à Yaoundé et Bafoussam.</p>
+                                                        <div class="blog-readmore"><a href="https://www.facebook.com/share/p/15Xq2AKrTj/?mibextid=wwXIfr" class="swin-transition">Lisez plus+ <i class="fa fa-angle-double-right"></i></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-bottom-top="background-position: 50% 50px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -150px;" class="testimonial-section-01 padding-top-100 padding-bottom-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="swin-sc swin-sc-title">
+                                        <p class="top-title"><span>Témoignage</span></p>
+                                        <h3 class="title white-color">Il nous ont fait confiance</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+                                            <div class="swin-sc swin-sc-testimonial style-1">
+                                                <div class="main-slider flexslider">
+                                                    <div class="slides">
+                                                        <div class="testi-item item"><i class="testi-icon fa fa-quote-left"></i>
+                                                            <div class="testi-content">
+                                                                <p>Le thé glacé Azongbio est une vraie découverte ! Rafraîchissant, naturel et parfaitement dosé en sucre. J'en suis fan .</p>
+                                                            </div>
+                                                            <div class="testi-info"><span class="name">Jean Atangana ZOA</span> <span class="position">Client</span></div>
+                                                        </div>
+                                                        <div class="testi-item item"><i class="testi-icon fa fa-quote-left"></i>
+                                                            <div class="testi-content">
+                                                                <p>Enfin un thé glacé local qui respecte la nature et notre santé ! Merci Azongbio pour cette alternative saine et délicieuse</p>
+                                                            </div>
+                                                            <div class="testi-info"><span class="name">Sarah TEMGOUA</span> <span class="position">Client</span></div>
+                                                        </div>
+                                                        <div class="testi-item item"><i class="testi-icon fa fa-quote-left"></i>
+                                                            <div class="testi-content">
+                                                                <p>Chaque gorgée est un plaisir ! On sent bien les plantes, c'est authentique et super désaltérant</p>
+                                                            </div>
+                                                            <div class="testi-info"><span class="name">Stephane MIKO'O</span> <span class="position">Client</span></div>
+                                                        </div>
+                                                        <div class="testi-item item"><i class="testi-icon fa fa-quote-left"></i>
+                                                            <div class="testi-content">
+                                                                <p>Ce que j'aime chez Azongbio, c'est la transparence sur les ingrédients et le goût 100% naturel. Je recommande les yeux fermés !</p>
+                                                            </div>
+                                                            <div class="testi-info"><span class="name">Jamie FOKAM</span> <span class="position">Client</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-width="150" class="nav-slider">
+                                                    <ul class="slides list-inline">
+                                                        <li class="swin-transition"><a href="javascript:void(0)" class="testimonial-nav-item">
+                                                         </a></li>
+                                                        <li class="swin-transition"><a href="javascript:void(0)" class="testimonial-nav-item">
+                                                           
+                                                        <li class="swin-transition"><a href="javascript:void(0)" class="testimonial-nav-item">
+                                                           </a></li>
+                                                        <li class="swin-transition"><a href="javascript:void(0)" class="testimonial-nav-item">
+                                                            </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="featured-section padding-top-100 padding-bottom-100">
+                      <div class="container">
+                        <div class="row">
+                          <!-- <div class="col-md-12">
+                            <div class="swin-sc swin-sc-title">
+                              <p class="top-title"><span>Featured Products</span></p>
+                              <h3 class="title">Our Best Selling Products</h3>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div data-wow-delay="0s" class="swin-sc sc-featured-box item wow fadeInUp" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;"><img src="assets/images/featured-box-bg-1.jpg" alt="fooday" class="box-bg">
+                              <div class="box-inner">
+                                <h4 class="box-title">LE THÉ NOIR AVEC ANANAS</h4>
+                                <div class="box-content">Le thé noir avec ananas combine les bienfaits antioxydants du thé noir avec les propriétés digestives de l'ananas. Riche en bromélaïne, il aide à la digestion et apporte une touche exotique rafraîchissante.</div>
+                                <div class="btn-wrap text-center"><a href="javascript:void(0)" class="btn swin-btn open-dialog" data-target="#product-dialog-5"><span>Read More</span></a></div>
+                                <div class="showcase"><img src="assets/images/feature-box-bg-5.jpg" alt="" class="img-responsive img-showcase">
+                                  <div class="title-showcase">LE THÉ NOIR AVEC ANANAS</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div data-wow-delay="0.5s" class="swin-sc sc-featured-box item wow fadeInUp" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><img src="assets/images/featured-box-bg-2.jpg" alt="fooday" class="box-bg">
+                              <div class="box-inner">
+                                <h4 class="box-title">LE THÉ NOIR AVEC ANANAS</h4>
+                                <div class="box-content">Le thé noir avec ananas combine les bienfaits antioxydants du thé noir avec les propriétés digestives de l'ananas. Riche en bromélaïne, il aide à la digestion et apporte une touche exotique rafraîchissante.</div>
+                                <div class="btn-wrap text-center"><a href="javascript:void(0)" class="btn swin-btn open-dialog" data-target="#product-dialog-5"><span>Read More</span></a></div>
+                                <div class="showcase"><img src="assets/images/feature-box-bg-5.jpg" alt="" class="img-responsive img-showcase">
+                                  <div class="title-showcase">LE THÉ NOIR AVEC ANANAS</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div data-wow-delay="1s" class="swin-sc sc-featured-box item wow fadeInUp" style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;"><img src="assets/images/featured-box-bg-3.jpg" alt="fooday" class="box-bg">
+                              <div class="box-inner">
+                                <h4 class="box-title">LE THÉ NOIR AVEC ANANAS</h4>
+                                <div class="box-content">Le thé noir avec ananas combine les bienfaits antioxydants du thé noir avec les propriétés digestives de l'ananas. Riche en bromélaïne, il aide à la digestion et apporte une touche exotique rafraîchissante.</div>
+                                <div class="btn-wrap text-center"><a href="javascript:void(0)" class="btn swin-btn open-dialog" data-target="#product-dialog-5"><span>Read More</span></a></div>
+                                <div class="showcase"><img src="assets/images/feature-box-bg-5.jpg" alt="" class="img-responsive img-showcase">
+                                  <div class="title-showcase">LE THÉ NOIR AVEC ANANAS</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div data-wow-delay="1.5s" class="swin-sc sc-featured-box item wow fadeInUp" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;"><img src="assets/images/featured-box-bg-4.jpg" alt="fooday" class="box-bg">
+                              <div class="box-inner">
+                                <h4 class="box-title">LE THÉ NOIR AVEC ANANAS</h4>
+                                <div class="box-content">Le thé noir avec ananas combine les bienfaits antioxydants du thé noir avec les propriétés digestives de l'ananas. Riche en bromélaïne, il aide à la digestion et apporte une touche exotique rafraîchissante.</div>
+                                <div class="btn-wrap text-center"><a href="javascript:void(0)" class="btn swin-btn open-dialog" data-target="#product-dialog-5"><span>Read More</span></a></div>
+                                <div class="showcase"><img src="assets/images/feature-box-bg-5.jpg" alt="" class="img-responsive img-showcase">
+                                  <div class="title-showcase">LE THÉ NOIR AVEC ANANAS</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div data-wow-delay="1.5s" class="swin-sc sc-featured-box item wow fadeInUp" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;"><img src="assets/images/featured-box-bg-1.jpg" alt="fooday" class="box-bg">
+                              <div class="box-inner">
+                                <h4 class="box-title">LE THÉ NOIR AVEC ANANAS</h4>
+                                <div class="box-content">Le thé noir avec ananas combine les bienfaits antioxydants du thé noir avec les propriétés digestives de l'ananas. Riche en bromélaïne, il aide à la digestion et apporte une touche exotique rafraîchissante.</div>
+                                <div class="btn-wrap text-center"><a href="javascript:void(0)" class="btn swin-btn open-dialog" data-target="#product-dialog-5"><span>Read More</span></a></div>
+                                <div class="showcase"><img src="assets/images/feature-box-bg-5.jpg" alt="" class="img-responsive img-showcase">
+                                  <div class="title-showcase">LE THÉ NOIR AVEC ANANAS</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+                </div>
+            </div>
+            <footer>
+                <div class="subscribe-section"><img src="assets/images/background/bg5.png" alt="" class="img-subscribe">
+                    <div class="container">
+                        <div class="subscribe-wrapper">
+                            <div class="row">
+                                <div class="col-lg-8 col-lg-offset-2">
+                                    <div class="subscribe-heading">
+                                        <h3 class="title">Abonnez-Vous maintenant
+                                          </h3>
+                                        <div class="des">Obtenez plus de nouvelles et de nos thés tous les jours de nous</div>
+                                    </div>
+                                    <form class="widget-newsletter">
+                                        <input placeholder="Email" class="form-control"><span class="submit"><i class="fa fa-paper-plane"></i></span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top"></div>
+                <div class="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 p-0">
+                                <div class="my_footer_widget ft-widget-area">
+                                    <div class="ft-area1">
+                                        <div class="swin-wget swin-wget-about">
+                                            <div class="clearfix"><a class="wget-logo"><img src="assets/images/logo-ft.png" alt="" class="img img-responsive" width="200" style="margin-top: 20px; margin-bottom: 20px;"></a>
+                                              <ul class="socials socials-about list-unstyled list-inline"style="margin-bottom: 35px; margin-top: 35px;">
+                                                <li><a href="https://www.facebook.com/share/18RX9f1cST/?mibextid=wwXIfr"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.tiktok.com/@azongbio?_t=ZN-8uwzQebhyHH&_r=1"><img src= "assets/images/tik-tok.png" class="myicon"></a></li>
+                                              </ul>
+                                            </div>
+                                            <div class="wget-about-content">
+                                                <p>Bralie Branding Food est fier de présenter sa gamme de thés glacés AzongBio, une fusion rafraîchissante de saveurs naturelles et d'ingrédients de qualité. Nos thés glacés AzongBio sont conçus pour ravir les papilles et rafraîchir les esprits.</p>
+                                            </div>
+                                            <div class="about-contact-info clearfix">
+                                                <div class="address-info">
+                                                    <div class="info-icon"><i class="fa fa-map-marker"></i></div>
+                                                    <div class="info-content">
+                                                        <p>Dschang, Ouest Cameroun </p>
+                                                        <p>Bralie Branding Food SA</p>
+                                                    </div>
+                                                </div>
+                                                <div class="phone-info">
+                                                    <div class="info-icon"><i class="fa fa-mobile-phone"></i></div>
+                                                    <div class="info-content">
+                                                        <p>+237 6 78 45 23 38</p>
+                                                        <p>+237 6 78 45 23 38</p>
+                                                    </div>
+                                                </div>
+                                                <div class="email-info">
+                                                    <div class="info-icon"><i class="fa fa-envelope"></i></div>
+                                                    <div class="info-content">
+                                                        <p>www.braliebranding.com</p>
+                                                        <!-- <p>support@fooday.com</p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-4">
+                                <div class="ft-fixed-area">
+                                    <div class="reservation-box">
+                                        <div class="reservation-wrap">
+                                            <h3 class="res-title">Open Hour</h3>
+                                            <div class="res-date-time">
+                                                <div class="res-date-time-item">
+                                                    <div class="res-date">
+                                                        <div class="res-date-item">
+                                                            <div class="res-date-text">
+                                                                <p>Tuesday:</p>
+                                                            </div>
+                                                            <div class="res-date-dot">.......................................</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <div class="res-time-item">
+                                                            <p>7AM - 9PM</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div class="res-date-time-item">
+                                                    <div class="res-date">
+                                                        <div class="res-date-item">
+                                                            <div class="res-date-text">
+                                                                <p>Wednesday:</p>
+                                                            </div>
+                                                            <div class="res-date-dot">.......................................</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <div class="res-time-item">
+                                                            <p>7AM - 9PM</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div class="res-date-time-item">
+                                                    <div class="res-date">
+                                                        <div class="res-date-item">
+                                                            <div class="res-date-text">
+                                                                <p>Thursday:</p>
+                                                            </div>
+                                                            <div class="res-date-dot">.......................................</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <div class="res-time-item">
+                                                            <p>7AM - 9PM</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div class="res-date-time-item">
+                                                    <div class="res-date">
+                                                        <div class="res-date-item">
+                                                            <div class="res-date-text">
+                                                                <p>Friday:</p>
+                                                            </div>
+                                                            <div class="res-date-dot">.......................................</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <div class="res-time-item">
+                                                            <p>7AM - 9PM</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div class="res-date-time-item">
+                                                    <div class="res-date">
+                                                        <div class="res-date-item">
+                                                            <div class="res-date-text">
+                                                                <p>Saturday:</p>
+                                                            </div>
+                                                            <div class="res-date-dot">.......................................</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <div class="res-time-item">
+                                                            <p>7AM - 9PM</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div class="res-date-time-item">
+                                                    <div class="res-date">
+                                                        <div class="res-date-item">
+                                                            <div class="res-date-text">
+                                                                <p>Sunday:</p>
+                                                            </div>
+                                                            <div class="res-date-dot">.......................................</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <div class="res-time-item">
+                                                            <p>7AM - 9PM</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div class="res-date-time-item">
+                                                    <div class="res-date">
+                                                        <div class="res-date-item">
+                                                            <div class="res-date-text">
+                                                                <p>Monday:</p>
+                                                            </div>
+                                                            <div class="res-date-dot">.......................................</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <div class="res-time-item">
+                                                            <p>Close</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                            <h3 class="res-title">Reservation Numbers</h3>
+                                            <p class="res-number">(617)-276-8031</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </footer><a id="totop" href="#" class="animated"><i class="fa fa-angle-double-up"></i></a>
+        </div>
+        <div id="loader" data-opening="m -5,-5 0,70 90,0 0,-70 z m 5,35 c 0,0 15,20 40,0 25,-20 40,0 40,0 l 0,0 C 80,30 65,10 40,30 15,50 0,30 0,30 z" class="pageload-overlay">
+            <div class="loader-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60" preserveaspectratio="none">
+                    <path d="m -5,-5 0,70 90,0 0,-70 z m 5,5 c 0,0 7.9843788,0 40,0 35,0 40,0 40,0 l 0,60 c 0,0 -3.944487,0 -40,0 -30,0 -40,0 -40,0 z"></path>
+                </svg>
+                <div class="sk-circle">
+                    <div class="sk-circle1 sk-child"></div>
+                    <div class="sk-circle2 sk-child"></div>
+                    <div class="sk-circle3 sk-child"></div>
+                    <div class="sk-circle4 sk-child"></div>
+                    <div class="sk-circle5 sk-child"></div>
+                    <div class="sk-circle6 sk-child"></div>
+                    <div class="sk-circle7 sk-child"></div>
+                    <div class="sk-circle8 sk-child"></div>
+                    <div class="sk-circle9 sk-child"></div>
+                    <div class="sk-circle10 sk-child"></div>
+                    <div class="sk-circle11 sk-child"></div>
+                    <div class="sk-circle12 sk-child"></div>
+                </div>
+                <div class="sk-circle sk-circle-out">
+                    <div class="sk-circle1 sk-child"></div>
+                    <div class="sk-circle2 sk-child"></div>
+                    <div class="sk-circle3 sk-child"></div>
+                    <div class="sk-circle4 sk-child"></div>
+                    <div class="sk-circle5 sk-child"></div>
+                    <div class="sk-circle6 sk-child"></div>
+                    <div class="sk-circle7 sk-child"></div>
+                    <div class="sk-circle8 sk-child"></div>
+                    <div class="sk-circle9 sk-child"></div>
+                    <div class="sk-circle10 sk-child"></div>
+                    <div class="sk-circle11 sk-child"></div>
+                    <div class="sk-circle12 sk-child"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="add-to-cart-dialog" class="add-to-card-dialog dialog">
+        <div class="dialog__overlay"></div>
+        <div class="dialog__content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="dialog-product-img"><img src="assets/images/product/product-full-02.jpg" alt="fooday" class="img img-responsive"></div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="dialog-product-title">The Cracker Barrel's Country Boy Breakfast</div>
+                        <div class="dialog-product-price">$25.0</div>
+                        <div class="product-quanlity">
+                            <div class="input-group">
+                                <input type="text" name="quanlity" placeholder="" value="1" class="form-control"><a href="javascript:void(0)" class="quanlity-plus"><i class="fa fa-plus"></i></a><a href="javascript:void(0)" class="quanlity-minus"><i class="fa fa-minus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="dialog-product-options">
+                            <p class="option-title">More Options</p>
+                            <div class="form-check">
+                                <input id="productQuantity1" type="radio" name="productOption" value="option1" checked="" class="form-check-input">
+                                <label for="productQuantity1" class="form-check-label">Aliquip ex ea commodo consequat</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="productQuantity2" type="radio" name="productOption" value="option2" checked="" class="form-check-input">
+                                <label for="productQuantity2" class="form-check-label">Quis ullam laboris nisi ut aliquip ex ea commodo</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="productQuantity3" type="radio" name="productOption" value="option3" checked="" class="form-check-input">
+                                <label for="productQuantity3" class="form-check-label">Commodo consequat aliquip</label>
+                            </div>
+                        </div>
+                        <div class="dialog-product-options">
+                            <p class="option-title">Other options</p>
+                            <div class="form-check">
+                                <input id="productOption2" type="checkbox" name="" value="option3" checked="" class="form-check-input">
+                                <label for="productOption2" class="form-check-label">Ullam laboris nisi ut aliquip ex ea commodo</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="productOption3" type="checkbox" name="" value="option3" class="form-check-input">
+                                <label for="productOption3" class="form-check-label">Ut enim ad minim veniam</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="dialog-button-group"><a href="product-cart.html" class="swin-btn btn-transparent"><span>View Cart</span></a><a data-toggle="dialog" data-target="#add-to-cart-dialog" class="swin-btn open-toast"><span>Order Now</span></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="add-to-card-toast toast">
+        <div class="toast_content">
+            <div role="alert" class="alert alert-success">
+                <button type="button" aria-label="Close" class="close close-toast"><span aria-hidden="true">×</span></button><strong>Order Successfully!</strong> This message will disappearance in 5 seconds
+            </div>
+        </div>
+    </div>
+    <!-- <div id="live-setting" class="hidden-sm hidden-xs"><a id="open-popup"><i class="fa fa-paint-brush"></i></a>
+        <form id="popup">
+            <h5 class="live-title">Site Color</h5>
+            <div class="popup-inner">
+                <div class="box-setting">
+                    <div class="pattern-color">
+                        <p>Pattern Color Variable:</p>
+                        <p class="text-small">( You can change any color as you want in source code. )</p>
+                        <div class="color-setting">
+                            <ul class="list-unstyled">
+                                <li class="colordefault"><span>Default</span><a></a></li>
+                                <li class="color01"><span>Pizza + Bread</span><a></a></li>
+                                <li class="color02"><span>Wine</span><a></a></li>
+                                <li class="color03"><span>Coffee</span><a></a></li>
+                                <li class="color04"><span>Vegetable</span><a></a></li>
+                                <li class="color05"><span>Cream</span><a></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="live-title">Layout Options</h5>
+            <div class="popup-inner">
+                <div class="layout-setting"><a class="wide"> <span>wide</span></a><a class="boxed"> <span>boxed</span></a></div>
+            </div>
+            <div class="boxed-setting">
+                <h5 class="live-title">Boxed layout images</h5>
+                <div class="popup-inner">
+                    <div class="layout-boxed-bg"><a data-img="assets/images/layout-option/bg-01.jpg" class="bx-layout-img"><img src="assets/images/layout-option/bg-01.jpg" class="img img-responsive"></a><a data-img="assets/images/layout-option/bg-02.jpg" class="bx-layout-img"><img src="assets/images/layout-option/bg-02.jpg" class="img img-responsive"></a><a data-img="assets/images/layout-option/bg-03.jpg" class="bx-layout-img"><img src="assets/images/layout-option/bg-03.jpg" class="img img-responsive"></a></div>
+                </div>
+            </div>
+        </form>
+    </div> -->
+    <!-- jQuery-->
+    <script src="assets/vendors/jquery-1.10.2.min.js"></script>
+    <!-- Bootstrap JavaScript-->
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Vendors-->
+    <script src="assets/vendors/flexslider/jquery.flexslider-min.js"></script>
+    <script src="assets/vendors/swipebox/js/jquery.swipebox.min.js"></script>
+    <script src="assets/vendors/slick/slick.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/vendors/jquery-countTo/jquery.countTo.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/parallax/parallax.min.js"></script>
+    <script src="assets/vendors/gmaps/gmaps.min.js"></script>
+    <script src="assets/vendors/audiojs/audio.min.js"></script>
+    <script src="assets/vendors/vide/jquery.vide.min.js"></script>
+    <script src="assets/vendors/pageloading/js/svgLoader.min.js"></script>
+    <script src="assets/vendors/pageloading/js/classie.min.js"></script>
+    <script src="assets/vendors/pageloading/sidebartransition/js/sidebarEffects.min.js"></script>
+    <script src="assets/vendors/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="assets/vendors/wowjs/wow.min.js"></script>
+    <script src="assets/vendors/skrollr.min.js"></script>
+    <script src="assets/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/vendors/jquery-cookie/js.cookie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <!-- Own script-->
+    <script src="assets/js/layout.js"></script>
+    <script src="assets/js/elements.js"></script>
+    <script src="assets/js/widget.js"></script>
+</body>
+
+</html>
